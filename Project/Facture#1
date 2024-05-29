@@ -1,0 +1,26 @@
+Code de la facture : 1
+-----------------------------------
+Informations du client : 1
+Identifiant du client : 1
+Nom du client : k
+Prenom du client : a
+Adresse du client : rabat
+-----------------------------------
+Il y a 2 produits dans la facture.
+-----------------------------------
+produit numero : 0
+Identifiant du produit : 2
+Nom du produit : c
+Description du produit : p
+Prix unitaire du produit : 25
+Quantite du produit : 99
+-----------------------------------
+-----------------------------------
+produit numero : 1
+Identifiant du produit : 1
+Nom du produit : c
+Description du produit : c
+Prix unitaire du produit : 12
+Quantite du produit : 4
+-----------------------------------
+Etat de la facture : Payee.

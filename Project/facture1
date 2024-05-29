@@ -1,0 +1,29 @@
+Code de la facture : 1
+-----------------------------------
+Informations du client : 
+Identifiant du client : 1
+Nom du client : sabi
+Prenom du client : oussam
+Adresse du client : ale
+-----------------------------------
+Il y a 2 produits dans la facture.
+-----------------------------------
+produit numero : 0
+Identifiant du produit : 1
+Nom du produit : coca
+Description du produit : cocacola
+Prix unitaire du produit : 5.99
+Quantite du produit : 2
+-----------------------------------
+-----------------------------------
+produit numero : 1
+Identifiant du produit : 2
+Nom du produit : pepsi
+Description du produit : pepsicola
+Prix unitaire du produit : 5
+Quantite du produit : 4
+-----------------------------------
+date de creation : 2023-12-29
+le montant Total est : 31.98
+-----------------------------------
+Etat de la facture : Payee.

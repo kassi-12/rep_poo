@@ -1,0 +1,9 @@
+# ninja log v5
+0	1733	7273992762008661	CMakeFiles/TestForExam.dir/bouquet.cpp.obj	5f32db3cb5685ad9
+16	1759	7273992763504664	CMakeFiles/TestForExam.dir/flowers.cpp.obj	9ee359fd35505dd4
+6	1274	7273993784994039	CMakeFiles/TestForExam.dir/bouquet.cpp.obj	5f32db3cb5685ad9
+29	1277	7273993785153606	CMakeFiles/TestForExam.dir/flowers.cpp.obj	9ee359fd35505dd4
+19	1671	7273993789392291	CMakeFiles/TestForExam.dir/main.cpp.obj	482b174c882a257f
+1672	2215	7273993794777891	TestForExam.exe	b1bcec6a8e959fbe
+12	5071	7274032570895141	CMakeFiles/TestForExam.dir/main.cpp.obj	482b174c882a257f
+5073	6445	7274032584638370	TestForExam.exe	b1bcec6a8e959fbe

@@ -1,0 +1,3 @@
+C:/Users/ABDERRAHMANE KASSIMI/Documents/C++/TestForExam/cmake-build-debug/CMakeFiles/TestForExam.dir
+C:/Users/ABDERRAHMANE KASSIMI/Documents/C++/TestForExam/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/ABDERRAHMANE KASSIMI/Documents/C++/TestForExam/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-d3b7b375de20303fa1a0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Gproject",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Gproject::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Gproject-Debug-bc72b9d59750b32a36de.json",
+					"name" : "Gproject",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Gproject_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Gproject_autogen-Debug-77cd5db82779cc98a7ba.json",
+					"name" : "Gproject_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Gproject_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Gproject_autogen_timestamp_deps-Debug-27bb6cc7de7861a742c3.json",
+					"name" : "Gproject_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/ABDERRAHMANE KASSIMI/Documents/C++/Project/build-Gproject-Desktop_Qt_6_6_1_MinGW_64_bit-Debug",
+		"source" : "C:/Users/ABDERRAHMANE KASSIMI/Documents/C++/Project/Gproject"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

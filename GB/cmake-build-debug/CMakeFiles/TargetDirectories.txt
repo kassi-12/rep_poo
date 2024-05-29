@@ -1,0 +1,3 @@
+C:/Users/KASSIMI/CLionProjects/GB/cmake-build-debug/CMakeFiles/GB.dir
+C:/Users/KASSIMI/CLionProjects/GB/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/KASSIMI/CLionProjects/GB/cmake-build-debug/CMakeFiles/rebuild_cache.dir

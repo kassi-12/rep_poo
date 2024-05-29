@@ -1,0 +1,3 @@
+C:/Users/KASSIMI/CLionProjects/TD2/cmake-build-debug/CMakeFiles/TD2.dir
+C:/Users/KASSIMI/CLionProjects/TD2/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/KASSIMI/CLionProjects/TD2/cmake-build-debug/CMakeFiles/rebuild_cache.dir

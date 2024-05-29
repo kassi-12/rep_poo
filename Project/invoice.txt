@@ -1,0 +1,11 @@
+Facture #1
+Informations du client : 
+----------------------------------------------
+Produits dans la facture : 
+----------------------------------------------
+Informations du produit 1 : 
+----------------------------------------------
+Informations du produit 2 : 
+----------------------------------------------
+Date de création : 12-18-2023
+Etat de la facture : Non payée !!

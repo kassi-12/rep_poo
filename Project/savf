@@ -1,0 +1,18 @@
+Code de la facture : 1
+-----------------------------------
+Informations du client : 2023-12-29
+Identifiant du client : 1
+Nom du client : kassimi
+Prenom du client : abde
+Adresse du client : rabat
+-----------------------------------
+Il y a 1 produits dans la facture.
+-----------------------------------
+produit numero : 0
+Identifiant du produit : 1
+Nom du produit : cocacola
+Description du produit : c
+Prix unitaire du produit : 2.99
+Quantite du produit : 2
+-----------------------------------
+Etat de la facture : Payée.

@@ -1,0 +1,187 @@
+#include <iostream>
+#include <string>
+
+using namespace std;
+class Vehicle {
+protected :
+    int _modele;
+    string _color;
+    int _vitess;
+public :
+    Vehicle(){}
+    Vehicle(int modele,string color,int vitess):_modele(modele),_color(color),_vitess(vitess){}
+    virtual void afficher(){
+        cout<<"[modele]=>"<<_modele<<endl;
+        cout<<"[color]=>"<<_color<<endl;
+        cout<<"[vitess]=>"<<_vitess<<endl;
+    }
+};
+class Car : public Vehicle{
+private :
+     string _name;
+        bool _4_4;
+        bool _engine;
+        public :
+    Car(){}
+    Car(int modele,string color,int vitess,string name,bool _4,bool engine): Vehicle(modele,color,vitess),_name(name),_4_4(_4),_engine(engine){}
+   bool getEngine(){
+            return _engine;
+        }
+    void setEngine( bool x){
+        _engine = x;
+    }
+    bool get_4_4(){
+        return _4_4;
+    }
+    void set_4_4( bool y){
+        _4_4 = y;
+    }
+    void startEngine(){
+            if (getEngine() == false ){
+                setEngine(true);
+                cout<<"[Engine]=>"<<boolalpha<<getEngine()<<endl;
+
+            }
+            else{
+                cout<<"[Engine already]=>"<<boolalpha<<getEngine()<<endl;
+            }
+        }
+    void endEngine(){
+        if (getEngine() == true ){
+            setEngine(false);
+            cout<<"[Engine]=>"<<boolalpha<<getEngine()<<endl;
+
+        }
+        else{
+            cout<<"[Engine already]=>"<<boolalpha<<getEngine()<<endl;
+        }
+    }
+    void afficher() override{
+            cout<<"[modele]=>"<<_modele<<endl;
+            cout<<"[color]=>"<<_color<<endl;
+            cout<<"[vitess]=>"<<_vitess<<endl;
+            cout<<"[name]=>"<<_name<<endl;
+            cout<<"[4*4]=>"<<boolalpha<<_4_4<<endl;
+            cout<<"[engine]=>"<<boolalpha<<_engine<<endl;
+        }
+};
+class Truck : public Vehicle{
+private :
+    string _name;
+    int _weight;
+    bool _engine;
+public :
+    Truck(){}
+    Truck(int modele,string color,int vitess,string name,int weight,bool engine): Vehicle(modele,color,vitess),_name(name),_weight(weight),_engine(engine){}
+    bool getEngine(){
+        return _engine;
+    }
+    void setEngine( bool x){
+        _engine = x;
+    }
+    bool getWeight(){
+        return _weight;
+    }
+    void startEngine(){
+        if (getEngine() == false ){
+            setEngine(true);
+            cout<<"[Engine]=>"<<boolalpha<<getEngine()<<endl;
+
+        }
+        else{
+            cout<<"[Engine already]=>"<<boolalpha<<getEngine()<<endl;
+        }
+    }
+    void endEngine(){
+        if (getEngine() == true ){
+            setEngine(false);
+            cout<<"[Engine]=>"<<boolalpha<<getEngine()<<endl;
+
+        }
+        else{
+            cout<<"[Engine already]=>"<<boolalpha<<getEngine()<<endl;
+        }
+    }
+    void afficher() override{
+        cout<<"[modele]=>"<<_modele<<endl;
+        cout<<"[color]=>"<<_color<<endl;
+        cout<<"[vitess]=>"<<_vitess<<endl;
+        cout<<"[name]=>"<<_name<<endl;
+        cout<<"[weight]=>"<<_weight<<endl;
+        cout<<"[engine]=>"<<boolalpha<<_engine<<endl;
+    }
+};
+class Motorcycle : public Vehicle{
+private :
+    string _name;
+    string _type;
+    bool _engine;
+public :
+    Motorcycle(){}
+    Motorcycle(int modele,string color,int vitess,string name,string type,bool engine): Vehicle(modele,color,vitess),_name(name),_type(type),_engine(engine){}
+    bool getEngine(){
+        return _engine;
+    }
+    void setEngine( bool x){
+        _engine = x;
+    }
+    string getType(){
+        return _type;
+    }
+    void startEngine(){
+        if (getEngine() == false ){
+            setEngine(true);
+            cout<<"[Engine]=>"<<boolalpha<<getEngine()<<endl;
+
+        }
+        else{
+            cout<<"[Engine already]=>"<<boolalpha<<getEngine()<<endl;
+        }
+    }
+    void endEngine(){
+        if (getEngine() == true ){
+            setEngine(false);
+            cout<<"[Engine]=>"<<boolalpha<<getEngine()<<endl;
+        }
+        else{
+            cout<<"[Engine already]=>"<<boolalpha<<getEngine()<<endl;
+        }
+
+    }
+    void afficher() override{
+        cout<<"[modele]=>"<<_modele<<endl;
+        cout<<"[color]=>"<<_color<<endl;
+        cout<<"[vitess]=>"<<_vitess<<endl;
+        cout<<"[name]=>"<<_name<<endl;
+        cout<<"[weight]=>"<<_type<<endl;
+        cout<<"[engine]=>"<<boolalpha<<_engine<<endl;
+    }
+
+};
+int main(){
+    cout<<"--------[CAR]--------"<<endl;
+    Car C1(2020,"Red",220,"BMW", false, false);
+    C1.afficher();
+    cout<<"----------------"<<endl;
+    C1.startEngine();
+    cout<<"----------------"<<endl;
+    cout<<"--------[TRUCK]--------"<<endl;
+    Truck T1(2023,"Green",300,"volvo", 2, true);
+    T1.afficher();
+    cout<<"----------------"<<endl;
+    T1.startEngine();
+    cout<<"----------------"<<endl;
+    cout<<"--------[MOTORCYCLE]--------"<<endl;
+    Motorcycle M1(2022,"bleu",300,"ninja h2r","race motor",true);
+    M1.afficher();
+    cout<<"----------------"<<endl;
+    M1.startEngine();
+    cout<<"----------------"<<endl;
+    M1.endEngine();
+    cout<<"----------------"<<endl;
+
+
+
+
+    return 0;
+}
