@@ -196,7 +196,7 @@ public:
 };
 
 template <typename T>
-bool verifieAutorisation(const T* jeu, const vector<Personne>& per, const Personne& perso) {
+T verifieAutorisation(const T* jeu, const vector<Personne>& per, const Personne& perso) {
     return (jeu->autorise(per) && perso.getAge() >= jeu->getAge());
 }
 
